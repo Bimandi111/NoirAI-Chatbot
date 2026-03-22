@@ -1351,8 +1351,8 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   inset: 0;
   background: rgba(0,0,0,0.5);
   z-index: 150;
-  backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .sidebar-overlay.visible { display: block; }
